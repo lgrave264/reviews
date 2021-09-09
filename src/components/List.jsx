@@ -13,7 +13,7 @@ const List =() => {
     setShowInfo((showInfo)=>{
                 var x = showInfo +1
                 var o = showInfo -3
-                if(showInfo = 3){
+                if(showInfo == 3){
                     return o;
                 }else{
                     return x;
@@ -24,7 +24,7 @@ const List =() => {
         setShowInfo((showInfo)=>{
                 var y = showInfo -1
                 var r = showInfo +3
-                if(showInfo = 0){
+                if(showInfo == 0){
                     return r;
                 }else{
                     return y;
